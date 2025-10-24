@@ -12,13 +12,13 @@ clickBtn.addEventListener('click', () => {
 yesBtn.addEventListener('click', () => {
   imageContainer.innerHTML = `
     <img src="images/yes.png" alt="Yes Image">
-    <p>Aap ke toothpaste main namak hai! 🧂😄</p>
+    <p>Wah! Aap kay toothpaste main namak hai! 🧂😄</p>
   `;
 });
 
 noBtn.addEventListener('click', () => {
   imageContainer.innerHTML = `
     <img src="images/no.png" alt="No Image">
-    <p>Afsos! Aap ke toothpaste main namak nahi hai 😢</p>
+    <p>Afsos! Aap kay toothpaste main namak nahi hai 😢</p>
   `;
 });
